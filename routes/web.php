@@ -15,11 +15,15 @@ use  App\Http\Controllers\MpesaController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('app/home');
 });
 
 Route::get('/home', function () {
-    return view('home');
+    return view('app/home');
+});
+
+Route::get('/stkpushpage', function () {
+    return view('app/stkpushpage');
 });
 
 Route::get('/generatetoken', [MpesaController::class, 'generateAccessToken']);

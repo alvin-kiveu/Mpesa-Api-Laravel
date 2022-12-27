@@ -30,7 +30,7 @@ MPESA_CONSUMER_KEY= <add your consumer key>
 MPESA_CONSUMER_SECRET= <add your consumer secret>
 MPESA_PASSKEY= <add your passkey>
 MPESA_SHORTCODE= <add your shortcode>
-
+MPESA_CALLBACK_URL= <add your callback url>
 ```
 
 Rearrange the bootstrap files and add it into Public folder of the application from the node_modules folder.
