@@ -61,13 +61,13 @@ IF YOU WANT INSTALL THIS PROJECT IN YOUR LOCAL MACHINE FOLLOW THE STEPS BELOW
 
 Make sure you have composer and laravel installed in your local machine.
 
-## 1. Clone the project
+### i. Clone the project
 
 ```bash
 git clone https://github.com/alvin-kiveu/Mpesa-Api-Laravel.git
 ```
 
-## 2. Install dependencies
+### ii. Install dependencies
 
 ```bash
 
@@ -75,7 +75,7 @@ composer install
 
 ```
 
-## 3. Create a copy of your .env file
+### iii. Create a copy of your .env file
 
 ```bash
 
@@ -83,7 +83,7 @@ cp .env.example .env
 
 ```
 
-## 4. Lounch the project
+### iv. Lounch the project
 
 ```bash
 php artisan serve
