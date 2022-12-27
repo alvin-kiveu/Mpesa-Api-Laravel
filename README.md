@@ -25,11 +25,12 @@ npm install bootstrap
 Add the following environment variables to your .env file
 
 ```bash
-MPESA_CONSUMER_KEY=
-MPESA_CONSUMER_SECRET=
-MPESA_SHORT_CODE=
-MPESA_PASSKEY=
-MPESA_CALLBACK_URL=
+MPESA_CONSUMER_KEY= <add your consumer key>
+MPESA_CONSUMER_SECRET= <add your consumer secret>
+MPESA_ENV= <production # or sandbox >
+MPESA_PASSKEY= <add your passkey>
+MPESA_SHORTCODE= <add your shortcode>
+
 ```
 
 Rearrange the bootstrap files and add it into Public folder of the application from the node_modules folder.
