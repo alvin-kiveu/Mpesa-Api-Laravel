@@ -10,28 +10,13 @@ INSTALL MPESA API WITH LARAVEL
 composer require safaricom/mpesa
 ```
 
-### Step 2: Add the Service Provider
-
-Open `config/app.php` and, to your `providers` array at the bottom, add:
+### Step 2: Access Token
 
 ```php
-Safaricom\Mpesa\MpesaServiceProvider::class,
-```
+use Safaricom\Mpesa\Mpesa;
 
-### Step 3: Publish the Package Configuration
+$mpesa = new Mpesa();
 
-```bash
-
-php artisan vendor:publish --provider="Safaricom\Mpesa\MpesaServiceProvider"
-
-```
-
-### Step 4: Add the Facade
-
-Open `config/app.php` and, to your `aliases` array at the bottom, add:
-
-```php
-
-'Mpesa' => Safaricom\Mpesa\Facades\Mpesa::class,
+$mpesa->set
 
 ```
