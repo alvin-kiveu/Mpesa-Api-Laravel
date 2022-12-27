@@ -20,9 +20,27 @@ install boostrap for the frontend
 npm install bootstrap
 ```
 
-Rearrange the bootstrap files and add it into Public folder of the application
+## 2. Add Environment Variables
 
-## 2. Create a Route for the Mpesa Api
+Add the following environment variables to your .env file
+
+```bash
+MPESA_CONSUMER_KEY=
+MPESA_CONSUMER_SECRET=
+MPESA_SHORT_CODE=
+MPESA_PASSKEY=
+MPESA_CALLBACK_URL=
+```
+
+Rearrange the bootstrap files and add it into Public folder of the application from the node_modules folder.
+
+## 3. Create a Route for the Mpesa Api
+
+Generate Access Token
+
+```php
+Route::get('/generate-token', [MpesaController::class, 'generateAccessToken']);
+```
 
 Intiate mpesa stk push route
 
