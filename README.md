@@ -25,9 +25,9 @@ npm install bootstrap
 Add the following environment variables to your .env file
 
 ```bash
+MPESA_ENV= <production # or sandbox >
 MPESA_CONSUMER_KEY= <add your consumer key>
 MPESA_CONSUMER_SECRET= <add your consumer secret>
-MPESA_ENV= <production # or sandbox >
 MPESA_PASSKEY= <add your passkey>
 MPESA_SHORTCODE= <add your shortcode>
 
@@ -37,10 +37,16 @@ Rearrange the bootstrap files and add it into Public folder of the application f
 
 ## 3. Create a Route for the Mpesa Api
 
+Add the following routes to your routes/web.php file
+
+```php
+use  App\Http\Controllers\MpesaController;
+```
+
 Generate Access Token
 
 ```php
-Route::get('/generate-token', [MpesaController::class, 'generateAccessToken']);
+Route::get('/generatetoken', [MpesaController::class, 'generateAccessToken']);
 ```
 
 Intiate mpesa stk push route

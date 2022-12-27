@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use  App\Http\Controllers\MpesaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +21,7 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::get('/generatetoken', [MpesaController::class, 'generateAccessToken']);
 
 Route::post('/stkpush', [MpesaController::class, 'initiateStkPush']);
