@@ -17,3 +17,13 @@ install boostrap for the frontend
 ```bash
 npm install bootstrap
 ```
+
+Rearrange the bootstrap files and add it into Public folder of the application
+
+## 2. Create a Route for the Mpesa Api
+
+Intiate mpesa stk push route
+
+```php
+Route::post('/stkpush', [AuthController::class, 'initiateStkPush']);
+```
