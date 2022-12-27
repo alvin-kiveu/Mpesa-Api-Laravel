@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::post('/stkpush', [MpesaController::class, 'initiateStkPush']);

@@ -25,5 +25,5 @@ Rearrange the bootstrap files and add it into Public folder of the application
 Intiate mpesa stk push route
 
 ```php
-Route::post('/stkpush', [AuthController::class, 'initiateStkPush']);
+Route::post('/stkpush', [MpesaController::class, 'initiateStkPush']);
 ```
