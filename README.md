@@ -40,24 +40,31 @@ Rearrange the bootstrap files and add it into Public folder of the application f
 Add the following routes to your routes/web.php file
 
 ```php
+
 use  App\Http\Controllers\MpesaController;
+
 ```
 
 Generate Access Token
 
 ```php
+
 Route::get('/generatetoken', [MpesaController::class, 'generateAccessToken']);
+
 ```
 
 Intiate mpesa stk push route
 
 ```php
+
 Route::post('/stkpush', [MpesaController::class, 'initiateStkPush']);
+
 ```
 
 MpesaController content
 
 ```php
+
 <?php
 
 namespace App\Http\Controllers;
@@ -169,6 +176,7 @@ class MpesaController extends Controller
         }
     }
 }
+
 ```
 
 To be continued........
