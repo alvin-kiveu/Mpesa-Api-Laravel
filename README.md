@@ -224,6 +224,12 @@ Do not forget to star the project,follow me on github and you can also donnate t
 
 LIPA NA MPESA TILL NUMBER: 5926541
 
+## BUY ME A COFFEE
+
+<a href="https://www.buymeacoffee.com/alvo967D">
+
+<img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=umeskiasoftwares&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" ></a>
+
 ## SUBSCRIBE TO MY YOUTUBE CHANNEL
 
 <a href="https://www.youtube.com/@umeskiasoftwares8211"> SUBSCRIBE </a>
