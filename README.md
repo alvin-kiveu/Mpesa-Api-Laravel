@@ -65,7 +65,6 @@ MpesaController content
 
 ```php
 
-<?php
 
 namespace App\Http\Controllers;
 
