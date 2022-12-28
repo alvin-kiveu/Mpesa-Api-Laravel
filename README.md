@@ -218,12 +218,12 @@ php artisan serve
 
 Do not forget to star the project,follow me on github and you can also donnate to me through mpesa if you find it useful.
 
-## SUBSCRIBE TO MY YOUTUBE CHANNEL
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1ZQ2QZ1ZQ2Q/0.jpg)](https://www.youtube.com/@umeskiasoftwares8211)
-
 ## DONNATE TO ME THROUGH MPESA
 
 <img width="150" height="100" src="https://scents.co.ke/wp-content/uploads/2019/05/lipa-na-mpesa.jpg" alt="mpesa logo">
 
 LIPA NA MPESA TILL NUMBER: 5926541
+
+## SUBSCRIBE TO MY YOUTUBE CHANNEL
+
+[![SUBSCRIBE](https://i.pinimg.com/564x/50/03/96/500396d98fca9ccc704d88de6b639d3c.jpg)](https://www.youtube.com/@umeskiasoftwares8211)
