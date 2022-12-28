@@ -95,6 +95,6 @@ Do not forget to star the project,follow me on github and you can also donnate t
 
 ## DONNATE TO ME THROUGH MPESA
 
-<img width: 50px; height:50px; src="https://scents.co.ke/wp-content/uploads/2019/05/lipa-na-mpesa.jpg" alt="mpesa logo">
+<img src="https://scents.co.ke/wp-content/uploads/2019/05/lipa-na-mpesa.jpg" alt="mpesa logo">
 
 LIPA NA MPESA TILL NUMBER: 5926541
