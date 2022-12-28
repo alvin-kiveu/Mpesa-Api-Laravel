@@ -226,4 +226,4 @@ LIPA NA MPESA TILL NUMBER: 5926541
 
 ## SUBSCRIBE TO MY YOUTUBE CHANNEL
 
-[![SUBSCRIBE](https://i.pinimg.com/564x/50/03/96/500396d98fca9ccc704d88de6b639d3c.jpg)](https://www.youtube.com/@umeskiasoftwares8211)
+<a href="https://www.youtube.com/@umeskiasoftwares8211"> SUBSCRIBE </a>
