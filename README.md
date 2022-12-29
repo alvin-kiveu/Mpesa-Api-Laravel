@@ -1,8 +1,6 @@
 # MPESA API WITH LARAVEL
 
-Hello, this is a simple laravel application that uses the Mpesa Api to make payments. This application is a simple implementation of the Mpesa Api. It is not a full implementation of the Mpesa Api. It is just a simple implementation of the Mpesa Api.
-
-You will need to create a laravel application and then add the Mpesa Api to it.follow the steps below to add the Mpesa Api to it.
+Hello, this is a simple Laravel application that utilizes the Mpesa API for payments. This application is a basic implementation of the Mpesa API, but it is not a complete implementation. To use the Mpesa API in your Laravel application, follow the steps below.
 
 ## 1. Create a controler for the Mpesa Api
 
@@ -216,9 +214,9 @@ php artisan serve
 
 .....................................................................................................................................................................................................................................
 
-Do not forget to star the project,follow me on github and you can also donnate to me through mpesa if you find it useful.
+Do not forget to star the project,follow me on github and you can also donate to me through mpesa if you find it useful.
 
-## DONNATE TO ME THROUGH MPESA
+## DONATE TO ME THROUGH MPESA
 
 <img width="150" height="100" src="https://scents.co.ke/wp-content/uploads/2019/05/lipa-na-mpesa.jpg" alt="mpesa logo">
 
